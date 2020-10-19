@@ -12,3 +12,6 @@ Observable skills used:
 8. Build a very basic form (even if it doesn’t “go” anywhere)
 
 Reflection on what I created: 
+1. I learned how to create a basic html file, that roughly looked like the google homepage.
+2. I learned how to search for best practices and examples to get my code to work.
+3. Figured out what CSS styles would apply to some html code and what wouldn't.
