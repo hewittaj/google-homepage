@@ -1,31 +1,52 @@
-ul.header {
-    list-style-type: none;
-    margin: 0;
-    padding:0;
+/*
+Classes
+*/
+li.inline-left {
+    float: left;
+    padding: 5px;
 }
 
-li.inline {
-    display: inline;
-}
-
-#left-header {
-    display: inline;
-}
-
-#right-header {
+li.inline-right {
     float: right;
+    padding: 5px;
+
+}
+ul.header {
+    display: inline;
+    list-style-type: none;
+}
+
+/*
+IDs
+*/
+#google {
+    max-width: 400px;
+    position: 1980/2;
+}
+img#grid-icon {
+    display:block;
+    width: 10px;
+    height: 10px;
+}
+
+img#profile-picture {
+    display: block;
+    width: 50px;
 }
 
 #logo {
     display: block;
-    width: 300px;
-    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-#grid-icon {
-    display:block;
-    width: 50px;
+
+#search {
+    border-radius: 5px;
+    height: 30px;
+    width: 750px;
 }
-#profile-picture {
-    display: block;
-    width: 50px;
+#search-bar {
+    text-align: center;
+    margin: auto;
 }
